@@ -8,7 +8,7 @@ import (
 	"io"
 )
 
-const PROMPT = ">>"
+const PROMPT = ">> "
 
 // Read lines and pass them to lexer until EOF
 func Start(in io.Reader, out io.Writer) {
